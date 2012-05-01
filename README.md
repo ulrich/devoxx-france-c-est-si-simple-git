@@ -10,12 +10,12 @@ Montrer les cas pratiques et problèmes de tous les jours comme :
 * Comment un développeur crée une branche de bugfix,
 * Comment un collègue s'accroche à la branche de ce dernier pour l'aider à fixer le bug de manière collaborative, 
 * Comment gérer facilement des petits problèmes de _merge_,
-* Comment _pusher_ cette branche dans le _remote_ gérer par l'admin,
+* Comment _pusher_ cette branche dans le _remote_ géré par l'admin,
 * Comment l'admin gère/synthétise les _commit_ en les _squashant_.
 
 ## Pratique (environ 10mn) :
 
-L'idée est faire collaborer _user1_ et _user2_ sur la résolution du _JIRA123_, _via_ un dépôt local commun aux deux développeurs. A l'issue de la résolution, l'un des deux _pushera_ les modifications dans une branche _JIRA123_ du dépôt principal.
+L'idée est de faire collaborer _user1_ et _user2_ sur la résolution du _JIRA123_, _via_ un dépôt local commun aux deux développeurs. A l'issue de la résolution, l'un des deux _pushera_ les modifications dans une branche _JIRA123_ du dépôt principal.
 Les _commits_ contenant les modifications de _user1_ et _user2_ seront _squashés_ et _mergés_ dans la branche _master_. Pendant la phase de _merge_, _superuser_ devra gérer un conflit _via_ la commande _diffuse_.
 
 Soit le scénario suivant :
